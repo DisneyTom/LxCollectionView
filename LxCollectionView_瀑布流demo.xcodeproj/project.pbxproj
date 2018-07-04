@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		84E611DE1DC0958A006E4B46 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E611DD1DC0958A006E4B46 /* main.m */; };
 		84E611E11DC0958A006E4B46 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E611E01DC0958A006E4B46 /* AppDelegate.m */; };
-		84E611E41DC0958A006E4B46 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E611E31DC0958A006E4B46 /* ViewController.m */; };
-		84E611E71DC0958A006E4B46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E611E51DC0958A006E4B46 /* Main.storyboard */; };
 		84E611E91DC0958A006E4B46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84E611E81DC0958A006E4B46 /* Assets.xcassets */; };
 		84E611EC1DC0958A006E4B46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E611EA1DC0958A006E4B46 /* LaunchScreen.storyboard */; };
 		84E611F71DC0958A006E4B46 /* LxCollectionView____demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E611F61DC0958A006E4B46 /* LxCollectionView____demoTests.m */; };
 		84E612021DC0958A006E4B46 /* LxCollectionView____demoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E612011DC0958A006E4B46 /* LxCollectionView____demoUITests.m */; };
+		84E612151DC0959F006E4B46 /* LxCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E612101DC0959F006E4B46 /* LxCollectionViewController.m */; };
+		84E612161DC0959F006E4B46 /* LxCollectionWaterFallCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E612121DC0959F006E4B46 /* LxCollectionWaterFallCell.m */; };
+		84E612171DC0959F006E4B46 /* LxCollectionWaterFallFlow.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E612141DC0959F006E4B46 /* LxCollectionWaterFallFlow.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +40,6 @@
 		84E611DD1DC0958A006E4B46 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		84E611DF1DC0958A006E4B46 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		84E611E01DC0958A006E4B46 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		84E611E21DC0958A006E4B46 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		84E611E31DC0958A006E4B46 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		84E611E61DC0958A006E4B46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84E611E81DC0958A006E4B46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84E611EB1DC0958A006E4B46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84E611ED1DC0958A006E4B46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +49,12 @@
 		84E611FD1DC0958A006E4B46 /* LxCollectionView_瀑布流demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LxCollectionView_瀑布流demoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84E612011DC0958A006E4B46 /* LxCollectionView____demoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "LxCollectionView____demoUITests.m"; sourceTree = "<group>"; };
 		84E612031DC0958A006E4B46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84E6120F1DC0959F006E4B46 /* LxCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LxCollectionViewController.h; sourceTree = "<group>"; };
+		84E612101DC0959F006E4B46 /* LxCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LxCollectionViewController.m; sourceTree = "<group>"; };
+		84E612111DC0959F006E4B46 /* LxCollectionWaterFallCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LxCollectionWaterFallCell.h; sourceTree = "<group>"; };
+		84E612121DC0959F006E4B46 /* LxCollectionWaterFallCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LxCollectionWaterFallCell.m; sourceTree = "<group>"; };
+		84E612131DC0959F006E4B46 /* LxCollectionWaterFallFlow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LxCollectionWaterFallFlow.h; sourceTree = "<group>"; };
+		84E612141DC0959F006E4B46 /* LxCollectionWaterFallFlow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LxCollectionWaterFallFlow.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +107,12 @@
 			children = (
 				84E611DF1DC0958A006E4B46 /* AppDelegate.h */,
 				84E611E01DC0958A006E4B46 /* AppDelegate.m */,
-				84E611E21DC0958A006E4B46 /* ViewController.h */,
-				84E611E31DC0958A006E4B46 /* ViewController.m */,
-				84E611E51DC0958A006E4B46 /* Main.storyboard */,
+				84E6120F1DC0959F006E4B46 /* LxCollectionViewController.h */,
+				84E612101DC0959F006E4B46 /* LxCollectionViewController.m */,
+				84E612111DC0959F006E4B46 /* LxCollectionWaterFallCell.h */,
+				84E612121DC0959F006E4B46 /* LxCollectionWaterFallCell.m */,
+				84E612131DC0959F006E4B46 /* LxCollectionWaterFallFlow.h */,
+				84E612141DC0959F006E4B46 /* LxCollectionWaterFallFlow.m */,
 				84E611E81DC0958A006E4B46 /* Assets.xcassets */,
 				84E611EA1DC0958A006E4B46 /* LaunchScreen.storyboard */,
 				84E611ED1DC0958A006E4B46 /* Info.plist */,
@@ -248,7 +255,6 @@
 			files = (
 				84E611EC1DC0958A006E4B46 /* LaunchScreen.storyboard in Resources */,
 				84E611E91DC0958A006E4B46 /* Assets.xcassets in Resources */,
-				84E611E71DC0958A006E4B46 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,9 +279,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84E611E41DC0958A006E4B46 /* ViewController.m in Sources */,
 				84E611E11DC0958A006E4B46 /* AppDelegate.m in Sources */,
+				84E612171DC0959F006E4B46 /* LxCollectionWaterFallFlow.m in Sources */,
+				84E612151DC0959F006E4B46 /* LxCollectionViewController.m in Sources */,
 				84E611DE1DC0958A006E4B46 /* main.m in Sources */,
+				84E612161DC0959F006E4B46 /* LxCollectionWaterFallCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,14 +319,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		84E611E51DC0958A006E4B46 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				84E611E61DC0958A006E4B46 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		84E611EA1DC0958A006E4B46 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -425,6 +425,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "LxCollectionView_瀑布流demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.doreso.LxCollectionView----demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -436,6 +437,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "LxCollectionView_瀑布流demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.doreso.LxCollectionView----demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";

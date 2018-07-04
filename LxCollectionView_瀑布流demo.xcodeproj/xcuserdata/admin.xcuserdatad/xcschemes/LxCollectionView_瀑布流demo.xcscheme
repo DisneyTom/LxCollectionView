@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "84E611D81DC0958A006E4B46"
+               BuildableName = "LxCollectionView_&#x7011;&#x5e03;&#x6d41;demo.app"
+               BlueprintName = "LxCollectionView_&#x7011;&#x5e03;&#x6d41;demo"
+               ReferencedContainer = "container:LxCollectionView_&#x7011;&#x5e03;&#x6d41;demo.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "84E611F11DC0958A006E4B46"
+               BuildableName = "LxCollectionView_&#x7011;&#x5e03;&#x6d41;demoTests.xctest"
+               BlueprintName = "LxCollectionView_&#x7011;&#x5e03;&#x6d41;demoTests"
+               ReferencedContainer = "container:LxCollectionView_&#x7011;&#x5e03;&#x6d41;demo.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "84E611FC1DC0958A006E4B46"
+               BuildableName = "LxCollectionView_&#x7011;&#x5e03;&#x6d41;demoUITests.xctest"
+               BlueprintName = "LxCollectionView_&#x7011;&#x5e03;&#x6d41;demoUITests"
+               ReferencedContainer = "container:LxCollectionView_&#x7011;&#x5e03;&#x6d41;demo.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "84E611D81DC0958A006E4B46"
+            BuildableName = "LxCollectionView_&#x7011;&#x5e03;&#x6d41;demo.app"
+            BlueprintName = "LxCollectionView_&#x7011;&#x5e03;&#x6d41;demo"
+            ReferencedContainer = "container:LxCollectionView_&#x7011;&#x5e03;&#x6d41;demo.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "84E611D81DC0958A006E4B46"
+            BuildableName = "LxCollectionView_&#x7011;&#x5e03;&#x6d41;demo.app"
+            BlueprintName = "LxCollectionView_&#x7011;&#x5e03;&#x6d41;demo"
+            ReferencedContainer = "container:LxCollectionView_&#x7011;&#x5e03;&#x6d41;demo.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "84E611D81DC0958A006E4B46"
+            BuildableName = "LxCollectionView_&#x7011;&#x5e03;&#x6d41;demo.app"
+            BlueprintName = "LxCollectionView_&#x7011;&#x5e03;&#x6d41;demo"
+            ReferencedContainer = "container:LxCollectionView_&#x7011;&#x5e03;&#x6d41;demo.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
